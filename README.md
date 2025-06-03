@@ -1,12 +1,69 @@
-# React + Vite
+# 🌐 Portfólio | Natanael Carvalho
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um portfólio pessoal desenvolvido com **React** e **TailwindCSS**, com visual moderno, responsivo e totalmente customizado. Foi criado para apresentar meus projetos, cursos e perfil profissional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) (para build rápido)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- HTML5 / CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Estrutura do Projeto
+
+src/
+├── assets/ # Imagens, vídeos, ícones
+├── components/ # Componentes reutilizáveis (Header, Footer, Card, Hero)
+├── pages/ # Páginas (Home, Sobre, Cursos, Sites)
+├── layout/ # Layout geral da aplicação
+├── utils/ # Dados estáticos (projetos, cursos)
+├── App.jsx # Componente principal
+└── main.jsx # Ponto de entrada
+
+
+---
+
+## 🧩 Funcionalidades
+
+- ✅ Hero com vídeo de fundo e foto sobreposta
+- ✅ Menu de navegação fixo e responsivo com ícone hambúrguer
+- ✅ Seções: Home, Sobre, Cursos, Sites
+- ✅ Cards de projetos dinâmicos com layout responsivo
+- ✅ Botão para download do currículo com ícone
+- ✅ Estilo neon pixel com fonte retro (`Press Start 2P`)
+- ✅ Layout totalmente responsivo para desktop e mobile
+
+---
+
+## 🖼️ Preview do layout
+
+![Preview](./src/assets/screencapture-localhost-5173-2025-06-02-22_52_18.png) <!-- troque por uma imagem do projeto -->
+
+---
+
+## 📁 Como rodar o projeto localmente
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/seuusuario/projeto-portfolio.git
+
+npm install
+
+npm run dev
+
+http://localhost:5173
+
+
+📄 Licença
+Este projeto é de uso pessoal. Fique à vontade para usar como referência ou adaptar para o seu próprio portfólio.
+
+
+---
+
+
