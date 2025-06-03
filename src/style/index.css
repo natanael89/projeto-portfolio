@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&family=WDXL+Lubrifont+TC&display=swap');
+@import "tailwindcss";
+
+.font-pixel {
+     font-family: "WDXL Lubrifont TC", sans-serif;
+     font-weight: 400;
+}
+
+.text-neon {
+     color: #f20089;
+}
+
+.bg-dark {
+     background-color: #0d0114;
+}
